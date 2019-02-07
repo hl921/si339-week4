@@ -1,0 +1,160 @@
+body{
+     margin: 5%;
+     padding: 5%;
+     border: 1px;
+     font-size: 16px;
+     color: #525252;
+     line-height: 2;
+}
+.wp{
+     background-image: url(../images/bg.png);
+     background-size: cover;
+}
+ a{
+     color: #000080;
+     font-family: 'Muli';
+}
+ .current{
+     color:#5C009E;
+     font-style: italic;
+     font-size: 130%;
+     border:3px;
+     border-color:black;
+}
+ a:link{
+     text-decoration: none;
+     color: #000080;
+     font-family: 'Muli';
+}
+ a:hover{
+     text-decoration: underline;
+}
+ a:active {
+     text-decoration: bold;
+}
+ .skip {
+     position: absolute;
+     top: -1000px;
+     left: -1000px;
+     height: 1px;
+     width: 1px;
+     text-align: left;
+     overflow: hidden;
+}
+ a.skip:active, a.skip:focus, a.skip:hover {
+     left: 0;
+     top: 0;
+     width: auto;
+     height: auto;
+     overflow: visible;
+}
+ nav li {
+     font-size: 120%;
+     font-family: 'Muli';
+     display: inline-block;
+     width: 12vw;
+     justify-content: space-around;
+     text-align: center;
+}
+ h1{
+     font-size: 200%;
+     font-family: 'Muli';
+     font-weight: bold;
+}
+ h2{
+     font-size: 170%;
+     font-family: 'Muli';
+     font-weight: lighter;
+}
+ h3{
+     font-size: 150%;
+     font-family: 'Muli', bold;
+     margin-bottom: 5px;
+     margin-top: 30px;
+}
+ h4{
+     font-size: 120%;
+     font-family: 'Muli', bold;
+     margin-top: 30px;
+}
+ p{
+     font-family: "Open Sans";
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+ ul{
+     font-family: "Open Sans";
+     margin-left: 50px;
+}
+ ol{
+     font-family: "Open Sans";
+     margin-left: 50px;
+}
+ footer{
+     text-align: center;
+}
+ img {
+     max-width: 100%;
+     max-height: 100%;
+     height: auto;
+     padding-top:3%;
+}
+ .container{
+     display:grid;
+     grid-template-columns: 300px 600px;
+     grid-template-rows: repeat(4, 400px);
+     grid-column-gap: 30px;
+     grid-row-gap: 50px;
+     justify-content: space-around;
+     text-align: right;
+}
+ .personas{
+     display:grid;
+     grid-template-columns: 500px 500px;
+     justify-content: space-around;
+}
+ .video{
+     display:grid;
+     grid-template-columns: 400px 600px;
+     grid-column-gap: 50px;
+     justify-content: space-around;
+     align-items: center;
+}
+ .button{
+     font-weight: bold;
+     text-align: center;
+     font-family: "Muli";
+     color: black;
+     padding: 5%
+}
+ .starbucks{
+     display:grid;
+     grid-template-columns: 200px 700px;
+     justify-content: space-around;
+}
+ .sketches{
+     display: grid;
+     grid-template-columns: 400px 400px;
+     grid-row-gap: 50px;
+     justify-content: space-around;
+}
+ .center{
+     text-align: center;
+     margin: auto;
+     padding: 10px;
+     font-size: 200%;
+}
+
+ .box{
+   box-sizing: border-box;
+   border: 1px solid #6F3691;
+   margin-top: 20px;
+ }
+
+ main{
+     margin-top: 50px;
+}
+
+ video{
+   padding: 3%;
+ }
